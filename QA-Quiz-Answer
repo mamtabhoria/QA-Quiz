@@ -1,0 +1,27 @@
+To test the portal login. I would have tested all the basic functionalities to make sure the quality of the portal login is kept. I would have also had done happy path test to make sure, the process of portal login is working as per the requirements.
+
+I would have also tested all the features in deep to make sure the portal is bug free and quality of it is kept. 
+ For testing purposes, I'd have created test cases for username and password to make sure the quality of the software is kept by creating test cases: 
+
+- correct e-mail address and password. 
+- Incorrect e-mail address and password
+- Correct e-mail address and no password
+- Incorrect email address and correct password style
+- No e-mail address and no password
+- No e-mail and password. 
+
+I would have used API and Cypress for testing purposes because, Cypress is javascript test automation solution designed to test web-browsers. It helps both developers and QA to do End-to-End testing, Integration Testing, and Unit Testing. Cypress also provides suggestions on how to fix a problem if a test case fails. For API testing, I would have used Postman. It is used to test end point interaction methods, which includes:
+
+- GET (obtain information)
+- POST (Add information)
+- PUT (Replace information)
+- Patch (Update a certain information)
+- DELETE (Delete a information)
+
+To test in API, I would have used POST command while creating a new account. 
+To gather information on existing user for signing purposes, I would have used GET command and use an existing dummy customer for testing purposes. Based on the response code we would know, if the test case was a pass or what went wrong:
+100 Series: Temporal response
+200 Series: Accepts the requests
+300 Series: Responses related to URL indirection
+400 Series: Client response error
+500 Series: Server response error. 
